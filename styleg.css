@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    /* border: 1px solid black; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vh;
+}
+
+header .head-left{
+    margin-left: 10px;
+    display: flex;
+}
+
+header .head-left img{
+    width: 30px;
+    height: 4vh;
+}
+header .head-mid button{
+    border: none;
+    background: black;
+    box-shadow: 1px 1px 10px 1px black;
+    display: flex;
+    width: 600px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+header .head-mid button input{
+    border: 1px solid red;
+    border-left: none;
+    box-shadow: 1px 1px 10px 1px black;
+    width: 96%;
+    height: 100%;
+    color: gray;
+    padding-left: 10px;
+}
+
+header .head-mid button div{
+    box-shadow: 1px 1px 10px 1px black;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+header .head-right .sandwich{
+    margin-right: 10px;
+}
+
+header .head-right .sandwich div{
+    border: 1px solid red;
+    width: 20px;
+    height: 0;
+    margin-top: 5px;
+}
+
+header .head-right .sandwich :nth-child(2){
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+aside{
+    /* border: 1px solid black; */
+    background: black;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.aside-top{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 10%;
+}
+
+.aca{
+    background: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+aside .top-right{
+    color: white;
+    margin: auto;
+}
+.aside-btm{
+    /* border: 1px solid black; */
+    color: wheat;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.aside-btm a{
+    color: white;
+}
+
+.aside-btm .btm-left{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 20%;
+    height: 90%;
+    
+}
+
+.aside-btm .btm-left div{
+    padding: 10px;
+}
+
+.aside-btm .btm-left svg, .aside-btm .btm-right svg{
+    color: white;
+}
+
+.btm-right .right-top{
+    display: flex;
+
+}
+
+.btm-right .right-top p{
+    /* border: 1px solid black; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+aside .btm-right .right-btm {
+    margin: 5px;
+}
+
+aside .btm-right .right-btm a{
+    margin: 15px;
+    text-decoration: none;
+}
+
+aside .btm-right .right-btm a p{
+    margin-left: 5px;
+}
+
+.dash, .prof, .staff, .stud, .result{
+    display: flex;
+}
+
+main{
+    border: 1px solid red;
+    width: 85vw;
+    height: 100vh;
+    margin-left: 15vw;
+    background-image: url(image/01d78df10ee99c63deb3bc1cf8654943.jpg) ;
+}
+
+main .form{
+    border: 1px solid #c06d24;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px #f1b763;
+    background-color: white;
+    opacity: 0.9;
+    width: 96%;
+    height: 90%;
+    margin:  20px auto;
+    padding: 10px 15px;
+}
+
+.form .head{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 40%;
+}
+
+.form-top .top-name{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.form-top .top-name input{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.top-name h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-name input{
+    border: 2px solid black;
+    padding: 10px ;
+}
+
+.form-mid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-mid .total .res{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.form-mid .subject, .form-mid .caOne, .form-mid .caTwo, .form-mid .exam, .form-mid .total{
+    display: grid;
+    margin-top: 15px;
+}
+
+.form-mid .subject h5, .form-mid .caOne h5, .form-mid .caTwo h5, .form-mid .exam h5, .form-mid .total h5{
+    margin: auto;
+}
+
+.form-mid .subject input{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    border: 2px solid black;
+    /* width: 200px; */
+    padding-top: 2px;
+}
+
+.form-mid .caOne input, .form-mid .caTwo input, .form-mid .exam input{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    border: 2px solid black;
+    width: 100px;
+    padding-top: 2px;
+}
+
+.form-mid .t-btn{
+    display: grid;
+    margin-top: 50px;
+}
+
+.form-mid .t-btn button{
+    width: 50px;
+    height: 20px;
+    background: #C8B089 ;
+}
+
+.form-mid .total .res{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-btn .btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-btn .btn button{
+    border-radius: 5px; 
+    width: 150px;
+    height: 40px;    
+}
+
+.form-btn .btn .av{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.form-btn .btn .gr{
+    background-color: #c27d40;
+}
+
+.form-btn .btn .pe{
+    background-color: #f1b763;
+}
+
+.form-btn .btn .re{
+    background: #bd212f;
+}
+
+.form-btn .btn .rest{
+    background: red;
+}
+
+.form-btm .display{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+}
+
+.form-btm .display div{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+}
